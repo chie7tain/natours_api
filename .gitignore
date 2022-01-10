@@ -1,0 +1,13 @@
+node_modules
+dev-data/img
+public/img
+config.env
+.env
+.env.example
+.env.local
+.env.development
+.env.production
+.env.test
+.env.staging
+.env.demo
+.env.docker
