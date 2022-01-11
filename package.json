@@ -1,10 +1,11 @@
+
 {
   "name": "starter",
   "version": "1.0.0",
   "description": "natours api",
   "main": "app.js",
   "scripts": {
-    "start:dev": "nodemon server.js",
+    "start": "nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js"
   },
   "author": "chie7tain",
@@ -20,6 +21,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "express": "^4.17.2",
+    "mongoose": "^5.13.14",
     "morgan": "^1.10.0",
     "prettier": "^2.5.1"
   }
