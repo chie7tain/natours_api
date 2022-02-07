@@ -12,9 +12,9 @@ mongoose
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false,
+    useUnifiedTopology: true,
   })
-  .then((con) => {
-    console.log(con.connections);
+  .then(() => {
     console.log('succesfully connected to DB');
   });
 const port = process.env.PORT || 3000;
